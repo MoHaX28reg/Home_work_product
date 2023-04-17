@@ -43,8 +43,8 @@ def Example2():
 def Example3():
     # ask = {'Привет' or 'Здаров' or 'Добрый день' or 'Здраствуй': 'И вам не хворать'}
     ask = {'Привет' : 'И вам не хворать', 'Здравствуй': 'Пиветик', 'Как тебя зовут': 'Меня зовут Ботя'}
-    i = 0
-    while i < 2:
+    # i = 0
+    while True:
         user_say = input('Пользователь: ')
         if user_say in ask: print(f'Ботя: {ask[user_say]}')
         elif user_say == 'стоп': break
