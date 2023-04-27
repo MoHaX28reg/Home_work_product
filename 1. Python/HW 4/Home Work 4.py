@@ -27,4 +27,4 @@ def ex3():
     n = int(input('Введите число: '))
     print(round(math.pi, n))
 
-ex3()
+ex1()
